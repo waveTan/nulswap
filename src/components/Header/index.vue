@@ -5,7 +5,7 @@
   >
     <div class="flex-between w1200">
       <div class="left">
-        <div class="logo" @click="router.push('/')">
+        <div class="logo" @click="router.push('/home')">
           <img src="../../assets/img/logo.png" alt="" />
         </div>
         <Menu class="pc-menu" />
