@@ -6,7 +6,7 @@
       <div class="fr">
         <span>TVL:50215k</span>
         <span>Circulation Supply:50000</span>
-        <span>NSWAP Burned:2000</span>
+        <span><label>NSWAP</label> Burned:2000</span>
       </div>
     </div>
     <div class="chart-wrap flex-between">
@@ -73,12 +73,28 @@
 <style lang="scss">
   .info-overview {
     .io-top {
-      //display: flex;
       background-color: #fff;
       border-bottom: 1px solid #e4e9f4;
       height: 50px;
       width: 100%;
+      font-weight: bold;
+
+      color: #475472;
       margin-bottom: 20px;
+      .fl {
+        font-size: 22px;
+        padding-top: 15px;
+      }
+      .fr {
+        font-size: 16px;
+        padding-top: 25px;
+        span{
+          margin-left:20px;
+        }
+        label{
+          color:#32e08d;
+        }
+      }
     }
     .chart-wrap {
       margin-bottom: 38px;
